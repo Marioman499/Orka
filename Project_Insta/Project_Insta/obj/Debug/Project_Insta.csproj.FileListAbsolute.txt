@@ -8,3 +8,13 @@ C:\Users\hayde\source\repos\Project_Insta\Project_Insta\obj\Debug\Project_Insta.
 C:\Users\hayde\source\repos\Project_Insta\Project_Insta\obj\Debug\Project_Insta.csproj.CoreCompileInputs.cache
 C:\Users\hayde\source\repos\Project_Insta\Project_Insta\obj\Debug\Project_Insta.exe
 C:\Users\hayde\source\repos\Project_Insta\Project_Insta\obj\Debug\Project_Insta.pdb
+C:\Users\hayde\Desktop\Project_Orka\Orka\Project_Insta\Project_Insta\bin\Debug\chromedriver.exe
+C:\Users\hayde\Desktop\Project_Orka\Orka\Project_Insta\Project_Insta\bin\Debug\Project_Insta.exe.config
+C:\Users\hayde\Desktop\Project_Orka\Orka\Project_Insta\Project_Insta\bin\Debug\Project_Insta.exe
+C:\Users\hayde\Desktop\Project_Orka\Orka\Project_Insta\Project_Insta\bin\Debug\Project_Insta.pdb
+C:\Users\hayde\Desktop\Project_Orka\Orka\Project_Insta\Project_Insta\bin\Debug\WebDriver.dll
+C:\Users\hayde\Desktop\Project_Orka\Orka\Project_Insta\Project_Insta\bin\Debug\WebDriver.xml
+C:\Users\hayde\Desktop\Project_Orka\Orka\Project_Insta\Project_Insta\obj\Debug\Project_Insta.csprojResolveAssemblyReference.cache
+C:\Users\hayde\Desktop\Project_Orka\Orka\Project_Insta\Project_Insta\obj\Debug\Project_Insta.csproj.CoreCompileInputs.cache
+C:\Users\hayde\Desktop\Project_Orka\Orka\Project_Insta\Project_Insta\obj\Debug\Project_Insta.exe
+C:\Users\hayde\Desktop\Project_Orka\Orka\Project_Insta\Project_Insta\obj\Debug\Project_Insta.pdb

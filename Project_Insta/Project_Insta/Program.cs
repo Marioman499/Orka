@@ -15,17 +15,20 @@ namespace Project_Insta
             IWebElement username;
             IWebElement password;
 
-            
-           
-            IWebDriver driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("https://www.instagram.com/accounts/login/?source=auth_switcher");
-            for (int i = 0; i < 10; i++)
-            {
+
+            UserManager Manager = new UserManager();
+            Manager.LoadUsers();
+            Manager.Start();
+         
+            //IWebDriver driver = new ChromeDriver();
+            //driver.Navigate().GoToUrl("https://www.instagram.com/accounts/login/?source=auth_switcher");
+            //for (int i = 0; i < 10; i++)
+            //{
                 
-               
+              
                
 
-            }
+            //}
 
 
 

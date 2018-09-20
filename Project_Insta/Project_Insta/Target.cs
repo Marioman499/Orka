@@ -10,6 +10,12 @@ namespace Project_Insta
     {
         private string Profile_Url;
         private string name;
+        private List<Bot> Linked_Bots = new List<Bot>();
+        public Target(string _u, string _nam)
+        {
+            Profile_Url = _u;
+            name = _nam;
+        }
 
         public string getUrl()
         {
@@ -26,6 +32,25 @@ namespace Project_Insta
         public void SetName(string _name)
         {
             name = _name;
+        }
+        public void addLink(Bot _Linker)
+        {
+            Linked_Bots.Add(_Linker);
+        }
+        public int GetLinkSize()
+        {
+            return Linked_Bots.Count;
+        }
+        public bool SearchLink(string Bot_ID)
+        {
+            for (int i = 0; i < Linked_Bots.Count; i++)
+            {
+                if (Linked_Bots[i].GetId() == Bot_ID)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
 

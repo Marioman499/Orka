@@ -16,7 +16,7 @@ namespace Project_Insta
         }
         public bool SearchPool(Comments _com)
         {
-            for (int i = 0; i < CommentPool.Capacity; i++)
+            for (int i = 0; i < CommentPool.Count; i++)
             {
                 if (_com.GetComment() == CommentPool[i].GetComment() )
                 {
@@ -29,5 +29,10 @@ namespace Project_Insta
             }
             return false;
         }
+        public void Generate()
+        {
+
+        }
+
     }
 }

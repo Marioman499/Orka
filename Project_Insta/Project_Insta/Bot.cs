@@ -8,10 +8,14 @@ namespace Project_Insta
 {
     class Bot
     {
+        private string Id;
+
         private string UserName;
 
         private string PassWord;
 
+        
+      
         protected List<Comments> Comment_Log;
         protected Comments Active_Comment;
 
@@ -25,7 +29,10 @@ namespace Project_Insta
             UserName = user;
             PassWord = PassWord;
         }
-
+        public string GetId()
+        {
+            return Id;
+        }
         public string GetUser()
         {
             return UserName;
@@ -42,6 +49,10 @@ namespace Project_Insta
         {
             PassWord = NewU;
         }
+        public void SetId(string _ID)
+        {
+            Id = _ID;
+        }
          
         public void AddComment(Comments Com)
         {
@@ -50,15 +61,20 @@ namespace Project_Insta
             Active_Comment = Com;
         }
 
-        public void SearchComment(Comments _Com)
+        public bool SearchComment(Comments _Com)
         {
-            for (int i = 0; i < Comment_Log.Capacity; i++)
+            for (int i = 0; i < Comment_Log.Count; i++)
             {
                if (_Com.GetComment() == Comment_Log[i].GetComment())
+                {
+                    return true;
+                }
+                else
                 {
 
                 }
             }
+            return false;
         }
 
 
